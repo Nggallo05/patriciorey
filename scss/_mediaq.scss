@@ -1,0 +1,160 @@
+@media only screen and (max-width:768px){
+    .titulos{
+        font-size: 1rem;
+    }
+    .subtitulos{
+        font-size: .9rem;
+    }
+    .parrafos{
+        font-size: .8rem;
+    }
+    .parrafo4{
+    font-size: .8rem;
+    }
+    .img1{
+        width: 150px;
+    }
+    .img2{
+        width: 150px;
+    }
+    section.grid{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows:(6,1fr);
+        grid-template-areas: 
+            "primera"
+            "segunda"
+            "tercera"
+            "cuarta"
+            "quinta"
+            "sexta";
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+    @media only screen and (min-width:768px){
+    .titulos{
+        font-size: 1.3rem;
+    }
+    .subtitulos{
+        font-size: 1rem;
+    }
+    .parrafos{
+        font-size: .9rem;
+    }
+    .parrafo4{
+        font-size: .9rem;
+    }
+    .img1{
+        width: 200px;
+    }
+    .img2{
+        width: 200px;
+    }
+    section.grid{
+        display: grid;
+        grid-template-columns: (2,1fr);
+        grid-template-rows:(4,1fr);
+        grid-template-areas: 
+            "primera primera" 
+            "segunda tercera"
+            "cuarta quinta" 
+            "sexta sexta";
+            justify-content: left;
+            align-items: left;
+            text-align: left;
+            margin: 1rem;
+            padding: 1rem;
+    }
+    .video1{
+        width: 600px;
+    }
+    .img7{
+        width: 700px;
+    }
+    }
+
+    
+    @media only screen and (min-width:1024px){
+    .titulos{
+    font-size: 1.8rem;
+    }
+    .subtitulos{
+        font-size: 1.2rem;
+    }
+    .parrafos{
+        font-size: 1rem;
+    }
+    .parrafo4{
+        font-size: 1rem;
+    }
+    .img1{
+        width: 350px;
+    }
+    .img2{
+        width: 350px;
+    }
+    section.grid{
+        display: grid;
+        grid-template-columns:(3,1fr);
+        grid-template-rows:(2,1fr);
+        margin:1rem;
+        padding:1rem;
+        grid-template-areas: 
+            "primera segunda tercera"
+            "cuarta quinta sexta";
+    }
+    .video1{
+        width: 350px;
+        height: 200px;
+        margin-left: 2rem;
+    }
+    .img4{
+        width: 350px;
+        height: 200px;
+    }
+    .img5{
+        width: 350px;
+        height: 200px;
+    }
+    .img6{
+        width: 350px;
+        height: 200px;
+        margin-left: 2rem;
+        margin-top: 4rem;
+    }
+    .img7{
+        width: 350px;
+        height: 200px;
+        margin-top:3.5rem;
+    }
+    .parrafoHistoria1{
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin: 2rem;
+    }
+    .parrafoHistoria2{
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin: 2rem;
+    }
+    .parrafoHistoria3{
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin: 2rem;
+    }
+    .parrafoHistoria4{
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin: 3rem;
+    }
+    }

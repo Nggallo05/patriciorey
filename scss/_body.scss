@@ -1,0 +1,198 @@
+
+@import "colors";
+@mixin cds ($height,$width,$padding){
+    height: $height;
+    width: $width;
+    padding: $padding;
+}
+
+body{
+    background-color:$bgcolor;
+    section{
+        background-color: $bgcolor;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 20px;
+        margin: 10px;
+    }
+    .grid{
+        width: 95%;
+        display: grid;
+        grid-template-columns:(3,1fr);
+        grid-template-rows:(2,1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        margin: 2rem;
+        grid-template-areas: 
+            "primera segunda tercera"
+            "cuarta quinta sexta";
+                .primera{
+                    grid-area: primera;
+                    justify-items: center;
+                    align-items: center;
+                    text-align: left;
+                    margin: 10px;
+                    margin-left: 17px;
+                    margin-top: 20px;
+                    padding: 10px;
+                }
+                .segunda{
+                    grid-area: segunda;
+                    justify-items: center;
+                    align-items: center;
+                    text-align: left;
+                    margin: 10px;
+                    margin-top: 20px;
+                    padding: 10px;
+                }
+                .tercera{
+                    grid-area: tercera;
+                    justify-items:end;
+                    align-items: center;
+                    text-align: left;
+                    margin: 10px;
+                    margin-top: 20px;
+                    padding: 10px;
+                }
+                .cuarta{
+                    grid-area: cuarta;
+                    justify-items: center;
+                    align-items: center;
+                    margin: 10px;
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    padding: 10px;
+                }
+                .quinta{
+                    grid-area: quinta;
+                    justify-items: center;
+                    align-items: center;
+                    margin: 10px;
+                    padding: 10px;
+                    text-align: left;
+                }
+                .sexta{
+                    grid-area: sexta;
+                    justify-items:end;
+                    align-items: center;
+                    margin: 10px;
+                    margin-top: 30px;
+                    padding: 10px;
+                }
+    }
+    
+    .imagenInicio1{
+        float: right;
+        margin: 20px;
+        border: solid #000000;
+    }
+    .imagenInicio2{
+        float: left;
+        margin: 20px;
+        overflow: hidden;
+        border: solid #000000;
+        position: relative;
+            bottom: 35px;
+    }
+    .parrafos{
+                word-spacing: 5px;
+                letter-spacing: 1px;
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+                margin:20px;
+                }
+    .tamanoCarusel{
+        width: 750px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    .iframe1{
+        position: relative;
+        left: 28%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+    .discos{
+        @include cds ($tamano*4,$tamano*3,$padding)
+    }
+    .disco5{
+        width: $tamano*3;
+        height: $tamano*4;
+        margin-top: 10px;
+        padding: 1rem;
+    }
+    .canciones{
+        width: 300px;
+    }
+    .canciones1{
+        width: 200px;
+    }
+    .canciones5{
+        width: 350px;
+        position: absolute;
+        top: 191%;
+        left: 27%;
+    }
+    .canciones10{
+        position: relative;
+        left: 15px;
+    }
+    .listasDiscos{
+        list-style:decimal;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        padding: 1.5rem;
+    }
+    .listasDiscos1{
+        list-style:decimal;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        padding: .5rem;
+    }
+    .cds{
+        @include cds ($tamano*3,$tamano*3,$padding/2)
+    }
+    .cd10{
+        width: $tamano*3;
+        height: $tamano*3;
+        position: relative;
+        left: 22px;
+        padding: .5rem;
+    }
+    .seccionContacto{
+        margin: 20px;
+    }
+    .formulario1{
+        position: relative;
+        left: 38%;
+    }
+    .formulario1 div{
+        margin: 1rem;
+        color:#000000;
+        font-family:'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .input{
+        width: 170px;
+    }
+    .input:focus{
+        width: 220px;
+        font-size: 20px;
+    }
+    footer {
+        background-image: linear-gradient(to left,#2b2d42,#2b2d42,#6b705c);
+        color: $colorfoot;
+        text-align: right;
+        padding: 10px;
+        div{
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+
+
+}

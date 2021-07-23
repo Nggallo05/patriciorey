@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .titulos {
+    font-size: 1rem;
+  }
+  .subtitulos {
+    font-size: .9rem;
+  }
+  .parrafos {
+    font-size: .8rem;
+  }
+  .parrafo4 {
+    font-size: .8rem;
+  }
+  .img1 {
+    width: 150px;
+  }
+  .img2 {
+    width: 150px;
+  }
+  section.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 6, 1fr;
+        grid-template-rows: 6, 1fr;
+        grid-template-areas: "primera" "segunda" "tercera" "cuarta" "quinta" "sexta";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .titulos {
+    font-size: 1.3rem;
+  }
+  .subtitulos {
+    font-size: 1rem;
+  }
+  .parrafos {
+    font-size: .9rem;
+  }
+  .parrafo4 {
+    font-size: .9rem;
+  }
+  .img1 {
+    width: 200px;
+  }
+  .img2 {
+    width: 200px;
+  }
+  section.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2, 1fr;
+        grid-template-columns: 2, 1fr;
+    -ms-grid-rows: 4, 1fr;
+        grid-template-rows: 4, 1fr;
+        grid-template-areas: "primera primera"  "segunda tercera" "cuarta quinta"  "sexta sexta";
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .video1 {
+    width: 600px;
+  }
+  .img7 {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .titulos {
+    font-size: 1.8rem;
+  }
+  .subtitulos {
+    font-size: 1.2rem;
+  }
+  .parrafos {
+    font-size: 1rem;
+  }
+  .parrafo4 {
+    font-size: 1rem;
+  }
+  .img1 {
+    width: 350px;
+  }
+  .img2 {
+    width: 350px;
+  }
+  section.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3, 1fr;
+        grid-template-columns: 3, 1fr;
+    -ms-grid-rows: 2, 1fr;
+        grid-template-rows: 2, 1fr;
+    margin: 1rem;
+    padding: 1rem;
+        grid-template-areas: "primera segunda tercera" "cuarta quinta sexta";
+  }
+  .video1 {
+    width: 350px;
+    height: 200px;
+    margin-left: 2rem;
+  }
+  .img4 {
+    width: 350px;
+    height: 200px;
+  }
+  .img5 {
+    width: 350px;
+    height: 200px;
+  }
+  .img6 {
+    width: 350px;
+    height: 200px;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  .img7 {
+    width: 350px;
+    height: 200px;
+    margin-top: 3.5rem;
+  }
+  .parrafoHistoria1 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 2rem;
+  }
+  .parrafoHistoria2 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 2rem;
+  }
+  .parrafoHistoria3 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 2rem;
+  }
+  .parrafoHistoria4 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 3rem;
+  }
+}
+
+header {
+  background-color: #000000;
+}
+
+header .imagenPortada {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+header .imagenMenu {
+  border-radius: 10%;
+}
+
+header .titulos {
+  font-family: 'Roboto', sans-serif;
+  color: #ff0000;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 10px;
+}
+
+header .subtitulos {
+  color: #ffebcd;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+header .menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #808080;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: right;
+}
+
+header .menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+header .menu li a {
+  text-decoration: none;
+  color: #ffebcd;
+  display: inline-block;
+  padding: 10px;
+}
+
+header .menu li ahover {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 100%;
+}
+
+header .menu li ahover ul li {
+  display: block;
+}
+
+header .menu li ahover ul lihover {
+  color: #790e0e;
+  font-weight: bold;
+}
+
+header .menu li ahover ul lihover a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: #B2AA8E;
+}
+
+body section {
+  background-color: #B2AA8E;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 20px;
+  margin: 10px;
+}
+
+body .grid {
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3, 1fr;
+      grid-template-columns: 3, 1fr;
+  -ms-grid-rows: 2, 1fr;
+      grid-template-rows: 2, 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+  margin: 2rem;
+      grid-template-areas: "primera segunda tercera" "cuarta quinta sexta";
+}
+
+body .grid .primera {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: primera;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin: 10px;
+  margin-left: 17px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+body .grid .segunda {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: segunda;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+body .grid .tercera {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: tercera;
+  justify-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+body .grid .cuarta {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: cuarta;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+body .grid .quinta {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: quinta;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+body .grid .sexta {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: sexta;
+  justify-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+body .imagenInicio1 {
+  float: right;
+  margin: 20px;
+  border: solid #000000;
+}
+
+body .imagenInicio2 {
+  float: left;
+  margin: 20px;
+  overflow: hidden;
+  border: solid #000000;
+  position: relative;
+  bottom: 35px;
+}
+
+body .parrafos {
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+body .tamanoCarusel {
+  width: 750px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body .iframe1 {
+  position: relative;
+  left: 28%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+body .discos {
+  height: 400px;
+  width: 300px;
+  padding: 1rem;
+}
+
+body .disco5 {
+  width: 300px;
+  height: 400px;
+  margin-top: 10px;
+  padding: 1rem;
+}
+
+body .canciones {
+  width: 300px;
+}
+
+body .canciones1 {
+  width: 200px;
+}
+
+body .canciones5 {
+  width: 350px;
+  position: absolute;
+  top: 191%;
+  left: 27%;
+}
+
+body .canciones10 {
+  position: relative;
+  left: 15px;
+}
+
+body .listasDiscos {
+  list-style: decimal;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+body .listasDiscos1 {
+  list-style: decimal;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+body .cds {
+  height: 300px;
+  width: 300px;
+  padding: 0.5rem;
+}
+
+body .cd10 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 22px;
+  padding: .5rem;
+}
+
+body .seccionContacto {
+  margin: 20px;
+}
+
+body .formulario1 {
+  position: relative;
+  left: 38%;
+}
+
+body .formulario1 div {
+  margin: 1rem;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+body .input {
+  width: 170px;
+}
+
+body .input:focus {
+  width: 220px;
+  font-size: 20px;
+}
+
+body footer {
+  background-image: -webkit-gradient(linear, right top, left top, from(#2b2d42), color-stop(#2b2d42), to(#6b705c));
+  background-image: linear-gradient(to left, #2b2d42, #2b2d42, #6b705c);
+  color: #c0c0c0;
+  text-align: right;
+  padding: 10px;
+}
+
+body footer div {
+  display: inline-block;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
