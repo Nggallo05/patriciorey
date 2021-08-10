@@ -199,8 +199,10 @@ header .subtitulos {
   text-align: center;
   letter-spacing: 5px;
   font-family: 'Lato', sans-serif;
-  padding: 10px;
-  padding-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-bottom: 1rem;
 }
 
 header .menu {
@@ -261,14 +263,23 @@ body main {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  padding: 20px;
-  margin: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+body main div {
+  margin: .5rem;
+  padding: .5rem;
+}
+
+body main .cdFundamentalistas {
+  margin: .3rem;
+  padding: .3rem;
 }
 
 body .grid {
@@ -505,6 +516,12 @@ body footer {
 body footer div {
   display: inline-block;
   margin: 5px;
+}
+
+body footer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
 }
 
 h1 {

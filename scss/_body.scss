@@ -14,10 +14,18 @@ body{
     main{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: stretch;
-        padding: 20px;
-        margin: 10px;
+        align-items:flex-start;
+        justify-content:space-around;
+        padding: 1.5rem;
+        margin: 1.5rem;
+            div{
+                margin: .5rem; 
+                padding: .5rem;
+            }
+            .cdFundamentalistas{
+                margin: .3rem;
+                padding: .3rem;
+            }
     }
     .grid{
         width: 95%;
@@ -195,6 +203,11 @@ body{
             display: inline-block;
             margin: 5px;
         }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-align: left;
+            }
     }
 
 
