@@ -1,5 +1,8 @@
 @media only screen and (max-width:768px){
-    .titulos{
+    .titulos1{
+        font-size: 1rem;
+    }
+    .titulos2{
         font-size: 1rem;
     }
     .subtitulos{
@@ -34,7 +37,10 @@
     }
 
     @media only screen and (min-width:768px){
-    .titulos{
+    .titulos1{
+        font-size: 1.3rem;
+    }
+    .titulos2{
         font-size: 1.3rem;
     }
     .subtitulos{
@@ -77,8 +83,11 @@
 
     
     @media only screen and (min-width:1024px){
-    .titulos{
+    .titulos1{
     font-size: 1.8rem;
+    }
+    .titulos2{
+        font-size: 1.8rem;
     }
     .subtitulos{
         font-size: 1.2rem;
