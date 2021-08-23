@@ -22,10 +22,10 @@
     font-size: .8rem;
   }
   .img1 {
-    width: 150px;
+    width: 200px;
   }
   .img2 {
-    width: 150px;
+    width: 200px;
   }
   section.grid {
     display: -ms-grid;
@@ -41,6 +41,24 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .primera {
+    margin: .5rem;
+  }
+  .segunda {
+    margin: .5rem;
+  }
+  .tercera {
+    margin: .5rem;
+  }
+  .cuarta {
+    margin: .5rem;
+  }
+  .quinta {
+    margin: .5rem;
+  }
+  .sexta {
+    margin: .5rem;
   }
 }
 
@@ -84,11 +102,23 @@
     margin: 1rem;
     padding: 1rem;
   }
-  .video1 {
-    width: 600px;
+  .primera {
+    margin: .5rem;
   }
-  .img7 {
-    width: 700px;
+  .segunda {
+    margin: .5rem;
+  }
+  .tercera {
+    margin: .5rem;
+  }
+  .cuarta {
+    margin: .5rem;
+  }
+  .quinta {
+    margin: .5rem;
+  }
+  .sexta {
+    margin: .5rem;
   }
 }
 
@@ -126,27 +156,23 @@
         grid-template-areas: "primera segunda tercera" "cuarta quinta sexta";
   }
   .video1 {
-    width: 350px;
-    height: 200px;
-    margin-left: 2rem;
+    width: 400px;
+    margin-left: 1.5rem;
   }
   .img4 {
     width: 350px;
-    height: 200px;
   }
   .img5 {
     width: 350px;
-    height: 200px;
   }
   .img6 {
     width: 350px;
-    height: 200px;
     margin-left: 2rem;
     margin-top: 4rem;
   }
   .img7 {
     width: 350px;
-    height: 200px;
+    height: 245px;
     margin-top: 3.5rem;
   }
   .parrafoHistoria1 {
@@ -211,6 +237,7 @@ header .titulos2 {
   text-transform: uppercase;
   letter-spacing: 5px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header .subtitulos {
@@ -300,116 +327,19 @@ body main .cdFundamentalistas {
   padding: .3rem;
 }
 
-body .grid {
-  width: 95%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 3, 1fr;
-      grid-template-columns: 3, 1fr;
-  -ms-grid-rows: 2, 1fr;
-      grid-template-rows: 2, 1fr;
-  grid-column-gap: 15px;
-  grid-row-gap: 20px;
-  margin: 2rem;
-      grid-template-areas: "primera segunda tercera" "cuarta quinta sexta";
-}
-
-body .grid .primera {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: primera;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  margin: 10px;
-  margin-left: 17px;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-body .grid .segunda {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: segunda;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  margin: 10px;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-body .grid .tercera {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: tercera;
-  justify-items: end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  margin: 10px;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-body .grid .cuarta {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: cuarta;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: 15px;
-  padding: 10px;
-}
-
-body .grid .quinta {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: quinta;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-}
-
-body .grid .sexta {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: sexta;
-  justify-items: end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 10px;
-  margin-top: 30px;
-  padding: 10px;
-}
-
 body .imagenInicio1 {
   float: right;
-  margin: 20px;
+  margin: 1rem;
   border: solid #000000;
 }
 
 body .imagenInicio2 {
   float: left;
-  margin: 20px;
+  margin: 1rem;
   overflow: hidden;
   border: solid #000000;
   position: relative;
-  bottom: 35px;
+  bottom: .5rem;
 }
 
 body .parrafos {
@@ -495,13 +425,14 @@ body .cd10 {
 }
 
 body .seccionContacto {
-  margin: 20px;
+  margin: 0px;
 }
 
 body .formulario1 {
+  margin: 0 auto;
+  width: 55vh;
   position: relative;
-  left: 38%;
-  width: 85vh;
+  right: 5%;
 }
 
 body .formulario1 div {
@@ -513,16 +444,12 @@ body .formulario1 div {
 }
 
 body .input {
-  width: 170px;
+  width: 65vh;
 }
 
 body .input:focus {
-  width: 220px;
+  width: 69vh;
   font-size: 20px;
-}
-
-body .contenedor1 {
-  margin-left: 20px;
 }
 
 body footer {
@@ -533,15 +460,16 @@ body footer {
   padding: 10px;
 }
 
-body footer div {
+body footer .creditos {
   display: inline-block;
   margin: 5px;
 }
 
-body footer p {
+body footer a {
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  text-align: left;
+  color: #575050;
 }
 
 h1 {

@@ -15,10 +15,10 @@
     font-size: .8rem;
     }
     .img1{
-        width: 150px;
+        width: 200px;
     }
     .img2{
-        width: 150px;
+        width: 200px;
     }
     section.grid{
         display: grid;
@@ -33,6 +33,24 @@
             "sexta";
         justify-content: center;
         align-items: center;
+    }
+    .primera{
+        margin: .5rem;
+    }
+    .segunda{
+        margin: .5rem;
+    }
+    .tercera{
+        margin: .5rem;
+    }
+    .cuarta{
+        margin: .5rem;
+    }
+    .quinta{
+        margin: .5rem;
+    }
+    .sexta{
+        margin: .5rem;
     }
     }
 
@@ -73,11 +91,23 @@
             margin: 1rem;
             padding: 1rem;
     }
-    .video1{
-        width: 600px;
+    .primera{
+        margin: .5rem;
     }
-    .img7{
-        width: 700px;
+    .segunda{
+        margin: .5rem;
+    }
+    .tercera{
+        margin: .5rem;
+    }
+    .cuarta{
+        margin: .5rem;
+    }
+    .quinta{
+        margin: .5rem;
+    }
+    .sexta{
+        margin: .5rem;
     }
     }
 
@@ -115,27 +145,23 @@
             "cuarta quinta sexta";
     }
     .video1{
-        width: 350px;
-        height: 200px;
-        margin-left: 2rem;
+        width: 400px;
+        margin-left: 1.5rem;
     }
     .img4{
         width: 350px;
-        height: 200px;
     }
     .img5{
         width: 350px;
-        height: 200px;
     }
     .img6{
         width: 350px;
-        height: 200px;
         margin-left: 2rem;
         margin-top: 4rem;
     }
     .img7{
         width: 350px;
-        height: 200px;
+        height: 245px;
         margin-top:3.5rem;
     }
     .parrafoHistoria1{
